@@ -1,0 +1,370 @@
+{
+    "data": [
+        {
+            "id": "62451efb99e67c5a1a22ea58",
+            "created_at": "2022-03-31T03:24:43.65Z",
+            "updated_at": "2022-03-31T03:24:43.65Z",
+            "created_by": "62451edd99e67c5a1a22ea52",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "name": "Default Team",
+            "description": "Default team",
+            "slug": "default-team",
+            "members": [
+                {
+                    "user_id": "62451edd99e67c5a1a22ea52",
+                    "role_ids": [
+                        "62451efb99e67c5a1a22ea54",
+                        "62451efb99e67c5a1a22ea55",
+                        "62451efb99e67c5a1a22ea56"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "6245e61a3167d947c7e7035f",
+                    "role_ids": [
+                        "62451efb99e67c5a1a22ea55",
+                        "62451efb99e67c5a1a22ea54",
+                        "62451efb99e67c5a1a22ea56"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "624729933167d947c7e70432",
+                    "role_ids": [
+                        "62451efb99e67c5a1a22ea56"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "612f9bbc4afb140007314590",
+                    "role_ids": [
+                        "62451efb99e67c5a1a22ea56"
+                    ],
+                    "abilities": {}
+                }
+            ],
+            "roles": [
+                {
+                    "id": "62451efb99e67c5a1a22ea54",
+                    "name": "Manage Team",
+                    "slug": "manage-team",
+                    "default": true,
+                    "abilities": {
+                        "teams": {
+                            "delete-teams": true,
+                            "read-teams": true,
+                            "update-teams": true
+                        }
+                    }
+                },
+                {
+                    "id": "62451efb99e67c5a1a22ea55",
+                    "name": "Admin",
+                    "slug": "admin",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "create-escalation-policies": true,
+                            "delete-escalation-policies": true,
+                            "read-escalation-policies": true,
+                            "update-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "create-postmortems": true,
+                            "delete-postmortems": true,
+                            "read-postmortems": true,
+                            "update-postmortems": true
+                        },
+                        "runbooks": {
+                            "create-runbooks": true,
+                            "delete-runbooks": true,
+                            "read-runbooks": true,
+                            "update-runbooks": true
+                        },
+                        "schedules": {
+                            "create-schedules": true,
+                            "delete-schedules": true,
+                            "read-schedules": true,
+                            "update-schedules": true
+                        },
+                        "services": {
+                            "create-services": true,
+                            "delete-services": true,
+                            "read-services": true,
+                            "update-services": true
+                        },
+                        "squads": {
+                            "create-squads": true,
+                            "delete-squads": true,
+                            "read-squads": true,
+                            "update-squads": true
+                        },
+                        "status_pages": {
+                            "create-status-pages": true,
+                            "delete-status-pages": true,
+                            "read-status-pages": true,
+                            "update-status-pages": true
+                        }
+                    }
+                },
+                {
+                    "id": "62451efb99e67c5a1a22ea56",
+                    "name": "User",
+                    "slug": "user",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "read-escalation-policies": true,
+                            "update-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "read-postmortems": true,
+                            "update-postmortems": true
+                        },
+                        "runbooks": {
+                            "read-runbooks": true,
+                            "update-runbooks": true
+                        },
+                        "schedules": {
+                            "read-schedules": true,
+                            "update-schedules": true
+                        },
+                        "services": {
+                            "read-services": true,
+                            "update-services": true
+                        },
+                        "squads": {
+                            "read-squads": true,
+                            "update-squads": true
+                        },
+                        "status_pages": {
+                            "read-status-pages": true,
+                            "update-status-pages": true
+                        }
+                    }
+                },
+                {
+                    "id": "62451efb99e67c5a1a22ea57",
+                    "name": "Observer",
+                    "slug": "observer",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "read-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "read-postmortems": true
+                        },
+                        "runbooks": {
+                            "read-runbooks": true
+                        },
+                        "schedules": {
+                            "read-schedules": true
+                        },
+                        "services": {
+                            "read-services": true
+                        },
+                        "squads": {
+                            "read-squads": true
+                        },
+                        "status_pages": {
+                            "read-status-pages": true
+                        }
+                    }
+                }
+            ],
+            "default": true,
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        },
+        {
+            "id": "6252fb0915b9607a2171c0dd",
+            "created_at": "2022-04-10T15:43:05.453Z",
+            "updated_at": "2022-04-10T15:43:05.453Z",
+            "created_by": "612f9bbc4afb140007314590",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "name": "Demo team",
+            "description": "",
+            "slug": "demo-team",
+            "members": [
+                {
+                    "user_id": "612f9bbc4afb140007314590",
+                    "role_ids": [
+                        "6252fb0915b9607a2171c0de",
+                        "6252fb0915b9607a2171c0df"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "624729933167d947c7e70432",
+                    "role_ids": [
+                        "6252fb0915b9607a2171c0e0"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "6245e61a3167d947c7e7035f",
+                    "role_ids": [
+                        "6252fb0915b9607a2171c0e0"
+                    ],
+                    "abilities": {}
+                },
+                {
+                    "user_id": "62451edd99e67c5a1a22ea52",
+                    "role_ids": [
+                        "6252fb0915b9607a2171c0e0"
+                    ],
+                    "abilities": {}
+                }
+            ],
+            "roles": [
+                {
+                    "id": "6252fb0915b9607a2171c0de",
+                    "name": "Manage Team",
+                    "slug": "manage-team",
+                    "default": true,
+                    "abilities": {
+                        "teams": {
+                            "delete-teams": true,
+                            "read-teams": true,
+                            "update-teams": true
+                        }
+                    }
+                },
+                {
+                    "id": "6252fb0915b9607a2171c0df",
+                    "name": "Admin",
+                    "slug": "admin",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "create-escalation-policies": true,
+                            "delete-escalation-policies": true,
+                            "read-escalation-policies": true,
+                            "update-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "create-postmortems": true,
+                            "delete-postmortems": true,
+                            "read-postmortems": true,
+                            "update-postmortems": true
+                        },
+                        "runbooks": {
+                            "create-runbooks": true,
+                            "delete-runbooks": true,
+                            "read-runbooks": true,
+                            "update-runbooks": true
+                        },
+                        "schedules": {
+                            "create-schedules": true,
+                            "delete-schedules": true,
+                            "read-schedules": true,
+                            "update-schedules": true
+                        },
+                        "services": {
+                            "create-services": true,
+                            "delete-services": true,
+                            "read-services": true,
+                            "update-services": true
+                        },
+                        "squads": {
+                            "create-squads": true,
+                            "delete-squads": true,
+                            "read-squads": true,
+                            "update-squads": true
+                        },
+                        "status_pages": {
+                            "create-status-pages": true,
+                            "delete-status-pages": true,
+                            "read-status-pages": true,
+                            "update-status-pages": true
+                        },
+                        "team_analytics": {
+                            "read-team-analytics": true
+                        }
+                    }
+                },
+                {
+                    "id": "6252fb0915b9607a2171c0e0",
+                    "name": "User",
+                    "slug": "user",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "read-escalation-policies": true,
+                            "update-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "read-postmortems": true,
+                            "update-postmortems": true
+                        },
+                        "runbooks": {
+                            "read-runbooks": true,
+                            "update-runbooks": true
+                        },
+                        "schedules": {
+                            "read-schedules": true,
+                            "update-schedules": true
+                        },
+                        "services": {
+                            "read-services": true,
+                            "update-services": true
+                        },
+                        "squads": {
+                            "read-squads": true,
+                            "update-squads": true
+                        },
+                        "status_pages": {
+                            "read-status-pages": true,
+                            "update-status-pages": true
+                        },
+                        "team_analytics": {
+                            "read-team-analytics": true
+                        }
+                    }
+                },
+                {
+                    "id": "6252fb0915b9607a2171c0e1",
+                    "name": "Observer",
+                    "slug": "observer",
+                    "default": false,
+                    "abilities": {
+                        "escalation_policies": {
+                            "read-escalation-policies": true
+                        },
+                        "postmortems": {
+                            "read-postmortems": true
+                        },
+                        "runbooks": {
+                            "read-runbooks": true
+                        },
+                        "schedules": {
+                            "read-schedules": true
+                        },
+                        "services": {
+                            "read-services": true
+                        },
+                        "squads": {
+                            "read-squads": true
+                        },
+                        "status_pages": {
+                            "read-status-pages": true
+                        },
+                        "team_analytics": {
+                            "read-team-analytics": true
+                        }
+                    }
+                }
+            ],
+            "default": false,
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "id": "6252fb34cc0d78e15cb48ee2",
+            "name": "Business Hours",
+            "slug": "business-hours",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "colour": "#9900ef",
+            "description": "9 to 5 Business hours schedule with on-call engineer rotated once a week",
+            "owner": {
+                "id": "6252fb0915b9607a2171c0dd",
+                "type": "team"
+            },
+            "access_control": [],
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        },
+        {
+            "id": "6252fb4114e81e3d8d2e8b7a",
+            "name": "Non-Business Hours",
+            "slug": "non-business-hours",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "colour": "#0f61dd",
+            "description": "5pm to 9am Business hours schedule with on-call engineer rotated once a day",
+            "owner": {
+                "id": "6252fb0915b9607a2171c0dd",
+                "type": "team"
+            },
+            "access_control": [],
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        },
+        {
+            "id": "6252fc232650baec4c42ea97",
+            "name": "Weekend Schedule",
+            "slug": "weekend-schedule",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "colour": "#00d084",
+            "description": "",
+            "owner": {
+                "id": "6252fb0915b9607a2171c0dd",
+                "type": "team"
+            },
+            "access_control": [],
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        },
+        {
+            "id": "6252fc52246c0d6114844062",
+            "name": "24*7",
+            "slug": "247",
+            "organization_id": "62451efb99e67c5a1a22ea53",
+            "colour": "#eb144c",
+            "description": "",
+            "owner": {
+                "id": "6252fb0915b9607a2171c0dd",
+                "type": "team"
+            },
+            "access_control": [],
+            "organization": {
+                "id": "62451efb99e67c5a1a22ea53",
+                "name": "MLWIZ inc.",
+                "slug": "mlwiz-inc"
+            }
+        }
+    ]
+}

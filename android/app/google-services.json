@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "7536743587",
+    "project_id": "maiwiz",
+    "storage_bucket": "maiwiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7536743587:android:ebf92b59e650f1c7405b16",
+        "android_client_info": {
+          "package_name": "com.maiwiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7536743587-h3n0lfi17cbjj4jdah8sokt2li6vucjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp2RF5v89OOcsGxwtN9go7M5YfHDCX46c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7536743587-h3n0lfi17cbjj4jdah8sokt2li6vucjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
